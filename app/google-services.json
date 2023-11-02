@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "340251501797",
+    "firebase_url": "https://myfirstagent-sqwocm.firebaseio.com",
+    "project_id": "myfirstagent-sqwocm",
+    "storage_bucket": "myfirstagent-sqwocm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340251501797:android:25380f64480b00a223e00c",
+        "android_client_info": {
+          "package_name": "com.example.a18016236task2d"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340251501797-lrpt81pftg8048ljne45bkje2bvk96th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBncqH_PsTQrF0vx9R6TvILMJ3SZeRwONA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340251501797-lrpt81pftg8048ljne45bkje2bvk96th.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340251501797:android:8c23adadcdfdf09a23e00c",
+        "android_client_info": {
+          "package_name": "com.example.fluentmindss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340251501797-lrpt81pftg8048ljne45bkje2bvk96th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBncqH_PsTQrF0vx9R6TvILMJ3SZeRwONA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340251501797-lrpt81pftg8048ljne45bkje2bvk96th.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340251501797:android:72ec395fefb9f59223e00c",
+        "android_client_info": {
+          "package_name": "com.example.tutorseekers30"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340251501797-buhipuehu5a4ejqlb2gonn5cculfb441.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tutorseekers30",
+            "certificate_hash": "094a8e6578a7d3fd8af3175a909a05ac8133da9a"
+          }
+        },
+        {
+          "client_id": "340251501797-lrpt81pftg8048ljne45bkje2bvk96th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBncqH_PsTQrF0vx9R6TvILMJ3SZeRwONA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340251501797-lrpt81pftg8048ljne45bkje2bvk96th.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

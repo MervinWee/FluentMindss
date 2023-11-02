@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    android:orientation="vertical"
+    tools:context=".Homepage"> <!-- Change to vertical orientation -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/baseline_face_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/details"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: " />
+
+    <TextView
+        android:id="@+id/tvEducationLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text=" Level: " />
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/IVSettings"
+            android:layout_width="60dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="230dp"
+            android:src="@drawable/baseline_settings_24" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:verticalSpacing="8dp"
+        android:horizontalSpacing="8dp"
+        android:layout_weight="1"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        >
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardElevation="4dp"
+            android:layout_marginEnd="8dp"
+            android:id="@+id/cvlearning"
+            android:layout_weight="1"
+            app:cardCornerRadius="8dp">
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/gamesimage"
+               android:scaleType="centerCrop"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tvSpelling"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="Learning"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardElevation="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:id="@+id/cvtest"
+            app:cardCornerRadius="8dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/kidquiz"
+
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tvQuiz"
+                android:gravity="center"
+                android:textColor="@color/brown"
+                android:text="Test"/>
+
+        </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/gridView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:verticalSpacing="8dp"
+        android:horizontalSpacing="8dp"
+        android:layout_weight="1"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:padding="8dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            app:cardElevation="4dp"
+            android:layout_marginEnd="8dp"
+            android:id="@+id/cvpractice"
+            android:layout_weight="1"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/kidexam"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tvComprehension"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="Practice"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            app:cardElevation="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:id="@+id/cvresources"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/resources"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tvEssay"
+                android:gravity="center"
+                android:textColor="@color/purple"
+                android:text="Resources"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
